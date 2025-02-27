@@ -3,12 +3,11 @@ int main()
 {
     int a,b;
     scanf("%d %d",&a,b);
-    if(a>=5 && b<=15)
+    if(a>b)
     {
-        printf("b is greater");
+        printf("%d",&a);
     }
     else
     {
-        printf("a is greater");
-    }
+        printf("%d",&b);
 }
