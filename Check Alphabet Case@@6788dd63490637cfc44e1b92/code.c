@@ -13,6 +13,6 @@ int main()
     }
     else
     {
-        printf("Not An Alphabet");
+        printf("Not an alphabet.");
     }
 }
