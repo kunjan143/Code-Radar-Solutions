@@ -1,7 +1,8 @@
 #include<stdio.h>
-int main() {
-    char a[100];
-    scanf("%s",&a);
-    printf("You entered:%s",a);
+int main()
+{
+    int i,n;
+    scanf("%d %d",&i,&n);
+    printf("Sum: %d",i+n);
     return 0;
 }
