@@ -2,7 +2,7 @@
 int main()
 {
     int First,Second;
-    scanf("%d %d", &a ,&b);
+    scanf("%d %d", &First ,&Second);
     if(First==Second)
     {
         printf("Equal");
