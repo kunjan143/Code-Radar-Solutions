@@ -5,7 +5,7 @@ int main()
     float per;
     scanf("%f %f %f %f %f", &A, &B , &C ,&D ,&F);
     per = (A+B+C+D+F)/5.0;
-    printf("percentage=%.2f\n",per);
+    printf("percentage=%.2f",per);
     if(per>=90)
     {
         printf("A");
