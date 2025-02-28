@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()
 {
-    int age,citizen status;
-    scanf("%d %d" ,&age ,&citizen status);
-    if(age>=18 && citizen status==1)
+    int a,b;
+    scanf("%d %d" ,&a ,&b);
+    if(a>=18 && b==1)
     {
         printf("Eligible");
     }
