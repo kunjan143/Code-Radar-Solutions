@@ -2,7 +2,7 @@
 int main()
 {
     int grade ,A,B,C,D,F;
-    scanf("%c" ,&grade ,&A ,&B ,&C ,&D ,&F);
+    scanf("%d" ,&grade ,&A ,&B ,&C ,&D ,&F);
     if(grade==A)
     {
         printf("Excellent");
