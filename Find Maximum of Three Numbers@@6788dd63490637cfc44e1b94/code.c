@@ -3,9 +3,9 @@ int main()
 {
     int a,b,c;
     scanf("%d %d %d", &a , &b ,&c);
-    if(a>b && a>c)
+    if(a<b && a<c)
     {
-        printf(" a is maximum number");
+        printf(" c is maximum number");
     }
     else if(b>c)
     {
@@ -13,6 +13,6 @@ int main()
     }
     else
     {
-        printf("c is maximum");
+        printf("a is maximum");
     }
 }
