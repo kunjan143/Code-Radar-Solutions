@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main()
 {
-    int grade;
-    scanf("%c" ,&grade);
+    int grade ,A,B,C,D,F;
+    scanf("%c" ,&grade ,&A ,&B ,&C ,&D ,&F);
     if(grade==A)
     {
         printf("Excellent");
