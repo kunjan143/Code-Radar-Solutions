@@ -1,25 +1,25 @@
 #include<stdio.h>
 int main()
 {
-    int grade ,A,B,C,D,F;
-    scanf("%c %d %d %d %d %d" ,&grade ,&A ,&B ,&C ,&D ,&F);
-    if(grade==A)
+    int ch;
+    scanf("%c" ,&ch);
+    if(ch=='A')
     {
         printf("Excellent");
     }
-    else if(grade==B)
+    else if(ch=='B')
     {
         printf("Good");
     }
-    else if(grade==C)
+    else if(ch=='C')
     {
         printf("Average");
     }
-    else if(grade==D)
+    else if(ch=='D')
     {
         printf("Below Average");
     }
-    else if(grade==F)
+    else if(ch=='F')
     {
         printf("Fail");
     }
