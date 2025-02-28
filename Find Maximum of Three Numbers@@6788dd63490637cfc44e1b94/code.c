@@ -13,6 +13,6 @@ int main()
     }
     else
     {
-        printf("a is maximum");
+        printf("a is maximum number");
     }
 }
