@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()
 {
-    int A,B,C,D,F;
+    int a,b,c,d,f;
     float per;
-    scanf("%f %f %f %f %f", &A, &B , &C ,&D ,&F);
+    scanf("%f %f %f %f %f", &a, &b , &c ,&d ,&f);
     per = (A+B+C+D+F)/5.0;
     printf("percentage=%.2f",per);
     if(per>=90)
