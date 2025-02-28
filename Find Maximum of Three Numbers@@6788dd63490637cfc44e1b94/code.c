@@ -3,16 +3,15 @@ int main()
 {
     int a,b,c;
     scanf("%d %d %d", &a , &b ,&c);
-    if(a<b && a<c)
+    if(a>b && a>c)
     {
-        printf(" c is maximum number");
+        printf("%d" ,'a' );
     }
-    else if(b>c)
+    else if(b>a && b>c)
     {
-        printf("b is maximum number");
+        printf("%d" ,'b');
     }
     else
     {
-        printf("a is maximum number");
+        printf("%d",'c');
     }
-}
