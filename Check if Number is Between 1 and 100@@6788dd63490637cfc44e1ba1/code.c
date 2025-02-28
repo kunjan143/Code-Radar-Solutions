@@ -9,6 +9,6 @@ int main()
     }
     else
     {
-        printf("Out of Range");
+        printf("Out Of Range");
     }
 }
