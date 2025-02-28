@@ -5,4 +5,5 @@ int main()
     scanf("%d %d %d" ,&a ,&b ,&c);
     avg=a+b+c/3;
     printf('avg');
+    return 0;
 }
