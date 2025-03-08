@@ -2,10 +2,9 @@
 #define BITS sizeof(int) * 32
 int main()
 {
-    int a, MSB;
+    int a;
     scanf("%d" ,&a);
-    MSB= 1 << (BITS - 1);
-    if(a&MSB)
+    if(a&1)
     {
         printf("Set");
     }
