@@ -1,5 +1,4 @@
 #include<stdio.h>
-#define BITS sizeof(int) * 32
 int main()
 {
     int a;
