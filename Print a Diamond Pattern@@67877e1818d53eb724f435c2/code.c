@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main()
 {
+int n,i,j,k;
 scanf("%d",&n);
 int nsp = n/2;
 int nst = 1;
