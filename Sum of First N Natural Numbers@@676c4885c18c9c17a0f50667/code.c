@@ -1,11 +1,17 @@
 #include<stdio.h>
 int main()
 {
-    int n,i;
+    int n,sum = 0;
     scanf("%d",&n);
-    for(i=1;i<=3*n;i++)
+    if (n<1)
     {
-        printf("%d",i);
+        printf("please enter a positive integer.\n");
+        return 1;
     }
-    printf("\n");
+    for(int i=1;i<=n;i++)
+    {
+        sum += i;
+    }
+    printf("the sum of the first %d natural number is: %d\n",n,sum);
+    return 0;
 }
