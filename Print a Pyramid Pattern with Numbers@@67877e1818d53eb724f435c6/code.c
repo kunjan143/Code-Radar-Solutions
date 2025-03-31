@@ -7,6 +7,7 @@ int main()
     int nsp = n-1;
     for(int i=1;i<=n;i++)
     {
+        int a = i-1;
         for(int q=1;q<=nsp;q++)
         {
             printf(" ");
