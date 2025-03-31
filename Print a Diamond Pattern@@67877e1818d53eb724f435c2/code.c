@@ -16,7 +16,7 @@ int main()
         {
             printf("*");
         }
-        if(i<ml)
+        if(i<=ml)
         {
             nsp--;
             nst+=2;
